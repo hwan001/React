@@ -1,0 +1,26 @@
+* {
+    position: absolute;
+}
+
+div {
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+}
+
+.pw {
+    border: 1px solid #0068FF;
+}
+
+.input {
+    border: 1px solid #0068FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderBox {
+    /* box-sizing: border-box; */
+    border: 1px solid yellow;
+}

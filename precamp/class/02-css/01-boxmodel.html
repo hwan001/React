@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        #header_string {
+            font-family: 'Noto Sans CJK KR';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 47px;
+            color: #0068FF;
+        }
+
+        div {
+            width: 80px;
+            height: 80px;
+            border: 1px solid red;
+        }
+
+        .pb {
+            width: 670px;
+            height: 960px;
+            border: 1px solid blue;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        /* #contentBox {
+            box-sizing: content-box;
+        }
+        #borderBox {
+            box-sizing: border-box;
+        } */
+    </style>
+</head>
+<body>
+    <!-- <div id="contentBox">박스 1</div>
+    <div>박스 2</div>
+    <div id="borderBox">박스 3</div> -->
+    <div class="pb">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
