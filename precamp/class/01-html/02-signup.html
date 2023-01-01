@@ -7,22 +7,31 @@
     <!-- https://dingco.notion.site/dingco/11cf7f0d8efa4a8c8222e3587908607c -->
 </head>
 <body>
-    <div class="borderBox">
-        <h2 id="header_string">회원가입을 위해 정보를 입력해주세요</h2>
-        <div class="pb">
-            * 이메일
+    <div class="pb">
+        <h2 id="signup_head_string">회원가입을 위해 정보를 입력해주세요</h2>
+        <div class="signup_contents_string">
+            * 이메일<br>
             <input class="input" type="text">
         </div>
-        <input class="input" type="text">
-        <input class="pw" type="password">
-        <input class="pw" type="password" placeholder="비밀번호를 다시 입력해 주세요."><br><br>
+        <div class="signup_contents_string">
+            * 이름<br>
+            <input class="name" type="text">
+        </div>
+        <div class="signup_contents_string">
+            * 비밀번호<br>
+            <input class="pw" type="password">
+        </div>
+        <!-- <input class="pw" type="password" placeholder="비밀번호를 다시 입력해 주세요."><br><br> -->
         <br><br>
-        <input type="radio" name="gender"> 여성
-        <input type="radio" name="gender"> 남성
-        <br><br>
+        <div class="signup_contents_string" name="성별">
+            <input type="radio" name="gender"> 여성
+            <input type="radio" name="gender"> 남성
+        </div>
         <input type="checkbox"> 이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.
         <hr>
-        <button>가입하기</button>
+        <div>
+            <button class="signup_button">가입하기</button>
+        </div>
     </div>
 </body>
 </html>

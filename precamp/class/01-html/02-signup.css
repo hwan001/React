@@ -1,18 +1,47 @@
 * {
-    position: absolute;
+    box-sizing: border-box;
 }
 
-div {
+/* div {
     width: 80px;
     height: 80px;
     border: 1px solid red;
-}
+} */
 
 .pw {
     border: 1px solid #0068FF;
 }
 
-.input {
+div {
+    width: 450px;
+    height: 80px;
+}
+
+.pb {
+    position: absolute;
+    width: 670px;
+    height: 960px;
+    left: 625px;
+    top: 60px;
+
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_button {
+    box-sizing: border-box;
+
+    position: absolute;
+    
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+}
+
+.signup_input {
     border: 1px solid #0068FF;
     display: flex;
     flex-direction: row;
@@ -20,7 +49,50 @@ div {
     align-items: center;
 }
 
-.borderBox {
+.signup_background {
     /* box-sizing: border-box; */
-    border: 1px solid yellow;
+    position: absolute;
+    width: 670px;
+    height: 960px;
+    left:625px;
+    top:60px;
+    background-color: #ffffff;
+    border: 1px solid #aacdff;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
 }
+
+
+.signup_head_string {
+    position: absolute;
+    width: 466px;
+    height: 94px;
+    left: 725px;
+    top: 132px;
+    
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+
+    color: #0068ff;
+}
+
+.signup_contents_string {
+    position: absolute;
+    width: 158px;
+    height: 23.65px;
+    left: 725px;
+    top: 286px;
+    
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #797979;
+}
+
